@@ -501,7 +501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameVersion: 1.0
-  roomName: MyRoom
+  roomName: University
   maxPlayers: 4
   autoJoinLobby: 1
   mobilePlayerPrefab: {fileID: 9032909991353006913, guid: 25f65e6b3aada4145ac6449d05de3c75, type: 3}
