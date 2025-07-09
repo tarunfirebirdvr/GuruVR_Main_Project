@@ -43,6 +43,10 @@ public class AddressableScene : MonoBehaviour
             StartCoroutine(LoadAddressableSceneWithProgress(address));
         }
     }
+    public void startscene()
+    {
+        StartCoroutine(LoadAddressableSceneWithProgress(address));
+    }
 
     private System.Collections.IEnumerator LoadAddressableSceneWithProgress(string key)
     {
