@@ -49,7 +49,7 @@ public class GateOpenScript : MonoBehaviour
     // Optional: Trigger via collision
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+       // if (other.CompareTag("Player"))
         {
             ToggleGate(); // Open when player enters trigger
         }
