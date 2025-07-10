@@ -250,7 +250,7 @@ namespace StarterAssets
             Vector2 joystickInput = leftJoystick != null ? leftJoystick.Direction : Vector2.zero;
             Vector2 keyboardInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
             Vector2 moveInput = joystickInput.sqrMagnitude > 0.1f ? joystickInput : keyboardInput;
-         //   Debug.Log(joystickInput.sqrMagnitude);
+            Debug.Log(joystickInput.sqrMagnitude);
             // Vector2 moveInput = leftJoystick != null ? leftJoystick.Direction : Vector2.zero;
             /*   Vector2 keyboardInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
                Vector2 joystickInput = leftJoystick != null ? leftJoystick.Direction : Vector2.zero;

@@ -507,7 +507,7 @@ MonoBehaviour:
   maxPlayers: 4
   autoJoinLobby: 1
   mobilePlayerPrefab: {fileID: 9032909991353006913, guid: 25f65e6b3aada4145ac6449d05de3c75, type: 3}
-  vrPlayerPrefab: {fileID: 8510416686045418045, guid: ea12144500901d14f85f7b1280593e52, type: 3}
+  vrPlayerPrefab: {fileID: 8510416686045418045, guid: 55768bfddc991c74da341536c2304f47, type: 3}
   DefaultCamera: {fileID: 76519114}
   OnspawnEnable: {fileID: 2067785732}
   PlayerJoystickCanvas: {fileID: 0}
@@ -1756,7 +1756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
